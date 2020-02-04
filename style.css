@@ -1,0 +1,168 @@
+@font-face {font-family: "BrushGrunge"; src: url("//db.onlinewebfonts.com/t/7d7c5f9c82221c14edfe094e18a7ef59.eot"); src: url("//db.onlinewebfonts.com/t/7d7c5f9c82221c14edfe094e18a7ef59.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7d7c5f9c82221c14edfe094e18a7ef59.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7d7c5f9c82221c14edfe094e18a7ef59.woff") format("woff"), url("//db.onlinewebfonts.com/t/7d7c5f9c82221c14edfe094e18a7ef59.ttf") format("truetype"); }
+
+* {
+  font-family: Segoe UI;
+}
+
+body {
+  background-color: beige
+}
+
+header {
+  font-family: BrushGrunge;
+  font-size: 60px;
+  color: #660;
+  text-align: center;
+  margin: 16px 0;
+  animation: floating 20s infinite ease;
+  letter-spacing: 2px;
+}
+
+@keyframes floating {
+  from {
+    transform: rotate3d(0, 0.8, 0.02, -12deg);
+    text-shadow: 12px 6px 3px rgba(0,0,0,0.15);
+  }
+  50% {
+    transform: rotate3d(0, 0.8, 0.02, 12deg);
+    text-shadow: -12px -6px 3px rgba(0,0,0,0.15);
+  }
+  to {
+    transform: rotate3d(0, 0.8, 0.02, -12deg);
+    text-shadow: 12px 6px 3px rgba(0,0,0,0.15);
+  }
+}
+
+#root {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  border: 0;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 0 6px gray
+}
+
+#added-items {
+  border: 1px dotted skyblue;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.added-item {
+  background-color: green;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color .3s
+}
+
+.added-item:hover {
+  background-color: indigo;
+  box-shadow: 0 0 8px grey;
+}
+
+#new-item-container {
+  display: flex;
+}
+
+#adding-item {
+  display: inline-block;
+  background-color: darkorange;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 0 auto;
+  box-shadow: 0 0 4px grey;
+  visibility: hidden
+}
+
+#input-area {
+  display: block;
+  margin: 0 auto;
+}
+
+.control-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px
+}
+
+.wide {width: 600px}
+
+button {
+  outline: none;
+  border: 2px solid;
+  border-radius: 2px;
+  background-color: transparent;
+  box-shadow: 0 0 4px gray;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px 6px;
+  transition: background-color .2s
+}
+
+#add-btn {
+  display: block;
+  border-color: green;
+  background-color: green;
+  color: white;
+}
+
+#add-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#create-btn, #download-btn {
+  display: block;
+  border-color: orangered;
+  background-color: orangered;
+  color: white;
+}
+
+#create-btn:hover, #download-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+input, select {
+  width: 70px;
+  padding: 4px 6px;
+  border: 1px dotted skyblue;
+  box-shadow: 0 0 4px grey;
+}
+
+input:hover, select:hover {
+  border: 1px solid skyblue;
+}
+
+#chart-name-input {
+  display: block;
+  width: 120px;
+}
+
+select {
+  width: 90px;
+  padding: 3px 0;
+}
+
+#chart-area {
+  border: 1px dotted skyblue;
+  height: 300px;
+  max-height: 600px;
+  margin-top: 10px
+}
