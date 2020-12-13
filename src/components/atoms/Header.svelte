@@ -2,8 +2,8 @@
 
 <style>
   header {
-    font-family: BrushGrunge;
-    font-size: 60px;
+    font-family: 'Caveat Brush';
+    font-size: 76px;
     color: #660;
     text-align: center;
     margin: 16px 0;
