@@ -1,8 +1,30 @@
-# Chart-Generator
+<div align="center">
+  <h1>Chart Generator</h1>
+  <p>A chart generator app built with <b>Svelte</b> & <b>ChartJS</b>.</p>
+  <a href="https://github.com/iamharky/Chart-Generator/blob/master/LICENSE" target="_blank">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/iamharky/Chart-Generator">
+  </a>
+  <br>
+</div>
 
-A chart generator built with **ReactJS** &amp; **ChartJS**.
 
-See it in action: https://codepen.io/harky/full/xxbQRaz
+
+See it in action: https://iamharky.github.io/Chart-Generator/
 
 
 ![Chart Generator](https://raw.githubusercontent.com/iamharky/Chart-Generator/master/chart-generator.gif)
+
+
+## MIT License
+
+Copyright (c) 2020 Turgut Yavuz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
