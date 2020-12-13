@@ -4,16 +4,11 @@
   <a href="https://github.com/iamharky/Chart-Generator/blob/master/LICENSE" target="_blank">
     <img alt="GitHub license" src="https://img.shields.io/github/license/iamharky/Chart-Generator">
   </a>
+  <br>  
+  <a href="https://iamharky.github.io/Chart-Generator/" target="_blank">See it in action</a>
   <br>
+  <img alt="Chart Generator" src="https://raw.githubusercontent.com/iamharky/Chart-Generator/master/chart-generator.gif">
 </div>
-
-
-
-See it in action: https://iamharky.github.io/Chart-Generator/
-
-
-![Chart Generator](https://raw.githubusercontent.com/iamharky/Chart-Generator/master/chart-generator.gif)
-
 
 ## MIT License
 
